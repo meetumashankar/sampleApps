@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "basic application ",
   "main": "index.js",
-  "scripts": {"start": "index.js"},
-  "engines" : { "node" : ">=10.x"},
-  "engines" : { "npm" : ">=6.x"},
+  "scripts": {
+    "start": "index.js"
+  },
+  "engines": {
+    "npm": ">=6.x"
+  },
   "author": "Umashankar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "line-reader": "^0.4.0",
+    "linereader": "^1.1.0",
+    "mongodb": "^3.2.7",
+    "random": "^2.1.1",
+    "reader": "0.0.8",
+    "readline": "^1.3.0"
+  }
 }
